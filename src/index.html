@@ -100,7 +100,11 @@
         <div class="container">
             <div class="aboutme__wrapper">
                 <div class="aboutme__photo">
-                    <img src="img/main_photo.jpg" alt="me">
+                    <img srcset="img/main_photo_mobile.jpg 300w,
+                                img/main_photo.jpg 400w"
+                         sizes="(max-width: 576px) 280px,
+                                (min-width: 577px) 400px"
+                     src="img/main_photo.jpg" alt="me">
                 </div>
                     <div class="aboutme__descr">
                         <div class="title title_fsz16 aboutme__title">Обо мне</div>

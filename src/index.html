@@ -47,9 +47,12 @@
 </head>
 <body>
     <aside class="sidepanel">
-        <a href="#" class="sidepanel__link"><img src="icons/social/facebook.svg" alt="facebook"></a>
+        <!-- <a href="#" class="sidepanel__link"><img src="icons/social/facebook.svg" alt="facebook"></a>
         <a href="#" class="sidepanel__link"><img src="icons/social/instagram.svg" alt="instagram"></a>
-        <a href="#" class="sidepanel__link"><img src="icons/social/github.svg" alt="github"></a>
+        <a href="#" class="sidepanel__link"><img src="icons/social/github.svg" alt="github"></a> -->
+        <i class="fa-brands fa-github fa-xl"></i>
+        <i class="fa-brands fa-telegram fa-xl"></i>
+        <i class="fa-solid fa-envelope fa-xl"></i>
         <div class="sidepanel__divider"></div>
         <div class="sidepanel__text"><span>Социальные сети</span></div>
     </aside>
@@ -57,9 +60,16 @@
     <div class="menu">
         <div class="menu__block">
             <div class="menu__close">
-                <svg width="29" height="30" viewBox="0 0 29 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M17.1568 14.5231L28.4489 3.23075C29.1837 2.49623 29.1837 1.30861 28.4489 0.574085C27.7144 -0.160437 26.5267 -0.160437 25.7922 0.574085L14.4998 11.8665L3.20781 0.574085C2.47295 -0.160437 1.28567 -0.160437 0.551149 0.574085C-0.183716 1.30861 -0.183716 2.49623 0.551149 3.23075L11.8432 14.5231L0.551149 25.8155C-0.183716 26.55 -0.183716 27.7376 0.551149 28.4721C0.917206 28.8385 1.39852 29.0226 1.87948 29.0226C2.36045 29.0226 2.84141 28.8385 3.20781 28.4721L14.4998 17.1798L25.7922 28.4721C26.1586 28.8385 26.6396 29.0226 27.1205 29.0226C27.6015 29.0226 28.0825 28.8385 28.4489 28.4721C29.1837 27.7376 29.1837 26.55 28.4489 25.8155L17.1568 14.5231Z" fill="black"/>
-                    </svg>
+                <a href="#" class="close-button">
+                    <div class="in">
+                      <div class="close-button-block"></div>
+                      <div class="close-button-block"></div>
+                    </div>
+                    <div class="out">
+                      <div class="close-button-block"></div>
+                      <div class="close-button-block"></div>
+                    </div>
+                  </a>
             </div>
             <nav>
                 <ul class="menu__list">
@@ -90,8 +100,8 @@
             <div class="title title_fsz16 promo__subtitle">Меня зовут Михаил Матюшко</div>
             <h1 class="title title_fsz48 promo__title">Я web-разработчик из города <br> Санкт-Петербург</h1>
             <div class="promo__btns">
-                <a href="#portfoliod" class="promo__link_active btn">Портфолио</a>
-                <a href="#aboutmed" class="promo__link">Обо мне</a>
+                <a href="#portfolio" class="promo__link_active btn">Портфолио</a>
+                <a href="#aboutme" class="promo__link">Обо мне</a>
             </div>
         </div>
     </section>
@@ -110,7 +120,10 @@
                         <div class="title title_fsz16 aboutme__title">Обо мне</div>
                         <div class="title title_fsz36 aboutme__subtitle">Меня зовут Михаил</div>
                         <div class="divider"></div>
-                        <p class="aboutme__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam non ex eaque illum. Quaerat, dolore porro voluptatibus illo voluptates doloribus, facilis nesciunt voluptatum optio cupiditate earum, eveniet quos dolor nemo.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam non ex eaque illum. Quaerat, dolore porro voluptatibus illo voluptates doloribus, facilis nesciunt voluptatum optio cupiditate earum, eveniet quos dolor nemo.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam non ex eaque illum. Quaerat, dolore porro voluptatibus illo voluptates doloribus, facilis nesciunt voluptatum optio cupiditate earum, eveniet quos dolor nemo</p>
+                        <p class="aboutme__text">Привет! Меня зовут Михаил, мне <span class="aboutme__age"></span>. Я проживаю в Санкт-Петербурге и на данный момент нахожусь в поисках работы в области Frontend.
+                        Имею магистерскую степень, обучался по специальности "Информационные системы и технологии".<br>
+                        Ключевые навыки: HTML5, CSS+SASS/SCSS, JavaScript (ES6+), React+Redux, Git, Gulp.<br>
+                        Владею английским языком на уровне B2 (Upper-Intermediate).</p>
                     </div>
                     <div class="aboutme__skills">
                         <div class="aboutme__skills-item">
@@ -119,7 +132,7 @@
                             </div>
                             <div>
                                 <div class="title title_fsz14">Web-разработка</div>
-                                <div class="aboutme__skills-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nostrum soluta veritatis temporibus porro, assumenda sit voluptates?</div>
+                                <div class="aboutme__skills-text">Имею больше 1 года опыта некоммерческой web-разработки. Умею работать с различными CSS фреймворками</div>
                             </div>
                         </div>
                         <div class="aboutme__skills-item">
@@ -128,7 +141,7 @@
                             </div>
                             <div>
                                 <div class="title title_fsz14">Разработка приложений</div>
-                                <div class="aboutme__skills-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nostrum soluta veritatis temporibus porro, assumenda sit voluptates?</div>
+                                <div class="aboutme__skills-text">На данный момент изучаю React+Redux. Имею опыт создания как веб приложений с ииспользованием native JS, так и при помощи React</div>
                             </div>
                         </div>
                         <div class="aboutme__skills-item ui-ux">
@@ -137,7 +150,7 @@
                             </div>
                             <div>
                                 <div class="title title_fsz14">UI/UX design</div>
-                                <div class="aboutme__skills-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nostrum soluta veritatis temporibus porro, assumenda sit voluptates?</div>
+                                <div class="aboutme__skills-text">Знание Responsive/Adaptive верстки. В качестве основного графического редактора и макет менеджера использую Figma</div>
                             </div>
                         </div>
                     </div>                    
@@ -161,11 +174,13 @@
                                     <div class="resume__item-icon">
                                         <img src="icons/experience/university.svg" alt="university">
                                     </div>
-                                    <h4 class="title title_fsz14">МГТУ им. Н. Э. Баумана</h4>
+                                    <h4 class="title title_fsz14">МГТУ (13-17) | ПГУПС (17-19)</h4>
                                     <div class="resume__item-location">Диплом магистра | Санкт-Петербург (2013-2019)</div>
                                 </div>
                                 <div class="resume__item-body">
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis quae, hic reiciendis fugiat numquam officia ipsam quasi id consectetur tenetur, voluptatibus doloribus expedita beatae? Esse quae facilis sunt odit fuga!
+                                    МГТУ (2013-2017) - Степень бакалавра по специальности "Информационные системы и технологии".<br>
+                                    ПГУПС (2017-2019) - Магистерская степень по специальности "Информационные системы и технологии".<br>
+                                    Один год аспирантуры в СПбГТИ(ТУ) по специальности "Информатика и вычислительная техника"
                                 </div>
                             </div>
                         </li>
@@ -179,7 +194,8 @@
                                     <div class="resume__item-location">Курсы по Web-разработке</div>
                                 </div>
                                 <div class="resume__item-body">
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis quae, hic reiciendis fugiat numquam officia ipsam quasi id consectetur tenetur, voluptatibus doloribus expedita beatae? Esse quae facilis sunt odit fuga!
+                                    Изучение новых технологий и практическое применение полученных навыков на платформе для онлайн-обучения Udemy.
+                                    Имеются сертификаты об окончании курсов по <a href="https://www.udemy.com/certificate/UC-56a37b33-80f7-4053-8d41-c7f007086610/">Web-разработке</a> и JavaScript+React
                                 </div>
                             </div>
                         </li>                        
@@ -198,7 +214,7 @@
                                     <div class="resume__item-location">МАГЭ | Мурманск (2016-2017)</div>
                                 </div>
                                 <div class="resume__item-body">
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis quae, hic reiciendis fugiat numquam officia ipsam quasi id consectetur tenetur, voluptatibus doloribus expedita beatae? Esse quae facilis sunt odit fuga!
+                                    Выполнение работ по оцифровке графической информации (оцифровка аналоговых карт). Обеспечение совместимости ГИС систем (ArcGIS, Mapinfo, ArcView, Geograph). Ведение технической документации. Работа с графическими редакторами (CorelDraw x7, Photoshop CC)
                                 </div>
                             </div>
                         </li>
@@ -337,6 +353,10 @@
             </div>
         </div>
     </section>
+
+    <a href="#up" class="pageup" hidden>
+        <img src="icons/up-arrow.svg" alt="up">
+    </a>
 
     <script src="js/vanilla-tilt.min.js"></script> 
     <script src="js/script.js"></script>

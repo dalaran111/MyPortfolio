@@ -1,5 +1,6 @@
 .sidepanel {
     position: fixed;
+    color: #fffa;
     top: 230px;
     left: 50px;
     display: flex;
@@ -19,9 +20,14 @@
         span {
             display: block;
             transform: rotate(-90deg) translate(-30%, -260%);
-            margin-top: 8px;
+            margin-top: 0px;
             width: 150px;
             font-weight: bold;
         }
+    }
+    i {
+        padding-bottom: 10px;
+        transform: rotate(-90deg);
+        margin-left: 10px;
     }
 }
